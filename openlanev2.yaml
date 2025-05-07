@@ -1,0 +1,22 @@
+path: ../datasets # dataset root dir
+train: train.txt # train images (relative to 'path') 1742289 images
+val: val.txt # val images (relative to 'path') 80000 images
+
+
+# Classes
+names:
+  0: unknown
+  1: red
+  2: green
+  3: yellow
+  4: go_straight
+  5: turn_left
+  6: turn_right
+  7: no_left_turn
+  8: no_right_turn
+  9: u_turn
+  10: no_u_turn
+  11: slight_left
+  12: slight_right
+
+
